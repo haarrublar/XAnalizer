@@ -22,29 +22,19 @@ render_steps()
 tab1, tab2= st.tabs(["Pretrained Model", "Train Model"])
 
 with tab1:
-    render_pretrainedModel()
+    render_pretrainedModel()    
 
-    col1, col2 = st.columns(2)
-    with col1:
-        st.text_input(label='', value='')
-    with col2:    
-        st.text_input(label='Epoch', value='10')
+
 
 with tab2:
-   st.header("A dog")
-   st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+    col1, col2 = st.columns(2)
+    with col1:
+        st.text_input(label='Text', value='')
+    with col2:    
+        st.text_input(label='Epoch', value='10')
 
 
 
 
 # st.info("🎈 **NEW:** Add your own code template to this site! [Guide](https://github.com/jrieke/traingenerator#adding-new-templates)")
-
-# Centered text using Markdown and HTML
-st.markdown("<div style='text-align: center;'>This text is centered</div>", unsafe_allow_html=True)
-
-# Input field for the user to enter text
-user_input = st.text_input(label='', value='')
-
-# Button to submit the input
-st.button("Submit")
 
