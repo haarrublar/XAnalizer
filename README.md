@@ -1,6 +1,6 @@
 # Sentiment Analysis Project
 
-For a complete description about the project visit --> []().
+For a complete description about the project visit --> [here!](https://haarrublar.com/blog/2024/4/26/tensorflow-lstm-text-classification-with-emoji-mask/).
 
 This tiny project emerged from the need of the company I am working for to analyze big dataset information regarding customer experiences and comments during several processes, from initial contact to post-sale. Despite deciding to use statistical classification analysis using Naive-Bayes with hyper-parameter tuning, I also chose to implement a simple bidirectional LSTM (Long Short-Term Memory) classification model using [TensorFlow's](https://www.tensorflow.org/) sequential models.
 
