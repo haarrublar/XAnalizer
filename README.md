@@ -95,6 +95,11 @@ With the project initialized, you have two alternatives: Jupyter notebooks or a 
 The simple sequence classification model has a decent performance. It is intended to be better structured and trained. Nevertheless, the accuracy it offers is a quite good starting point for learning purposes.
 
 
+![performance](model/media/images/model_loss_accuracy.png)
+
+
+As result we have a model evaluation using the test dataset with Loss: 0.12 and Accuracy: 0.95.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
