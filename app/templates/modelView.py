@@ -58,7 +58,7 @@ def render_pretrainedModel():
         clean_sentence = str(cleanSentence(sentence_emojiMask))
         tf_clean_sentence = tf.constant([clean_sentence])
         prediction = loaded_model(tf_clean_sentence)
-        binary_prediction = 1 if prediction.numpy()[0][0] > threshold else 0
+        binary_prediction = 'Positive' if prediction.numpy()[0][0] > threshold else 'Negative'
         st.write(f'{binary_prediction}')
 
         # prediction = model.predict([user_input])[0][0]
